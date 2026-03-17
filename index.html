@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Birthday Invitation</title>
+
+    <link rel="stylesheet" href="CSS/invitation.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="lace-top"></div>
+
+    <!-- OPENING -->
+    <section class="opening">
+      <h1 class="title">
+        Finindya Meylista’s <br />
+        <span>Birthday Party</span>
+      </h1>
+
+      <div class="opening-container">
+        <div class="photo-card">
+          <img src="image/group.png" class="photo" />
+
+          <img src="image/pita.png" class="bow-top" />
+        </div>
+
+        <div class="letter">
+          <h2>A Letter for You</h2>
+
+          <h3><i>Dear My Beloved Friends!</i></h3>
+
+          <p>
+            With deep gratitude and joy, I would like to invite you to celebrate
+            my birthday with me. For me, this day is not simply about turning
+            another year older—it is about appreciating the journey I’ve been
+            blessed with and cherishing the people who have made it meaningful.
+          </p>
+
+          <p>
+            I believe that birthdays are best celebrated not with grand
+            gestures, but with laughter, stories, and the warmth of
+            togetherness. That is why I truly hope you can be there. Your
+            presence will add happiness and meaning to this special day, making
+            it a memory I will hold close to my heart.
+          </p>
+
+          <p>
+            Let us gather, share joy, and create moments we will remember for
+            years to come.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAILS SECTION -->
+
+    <section class="details-wrapper">
+      <div class="details-card">
+        <h2>Event Details</h2>
+
+        <p class="label">Time:</p>
+        <p class="value">2:00 PM — 10:00 PM</p>
+
+        <p class="label">Location:</p>
+        <p class="value">Whitehaven Beach, Australia</p>
+
+        <img src="image/pantai7.jpg" class="beach" />
+
+        <p class="label">Dress Code:</p>
+        <p class="value">
+          Blue, White, Yellow <br />
+          (Pastel Color) <br />
+          and any accessories
+        </p>
+
+        <p class="label">Example Color:</p>
+        <div class="color-box">
+          <div class="star blue"></div>
+          <div class="star white"></div>
+          <div class="star yellow"></div>
+        </div>
+      </div>
+
+      <div class="performance-card">
+        <h2>With Special Performance From:</h2>
+
+        <ul>
+          <li>✧♪ — LANY</li>
+          <li>✧♪ — The 1975</li>
+          <li>✧♪ — Wave To Earth</li>
+          <li>✧♪ — Bernadya</li>
+          <li>✧♪ — Reality Club</li>
+          <li>✧♪ — Nadin Amizah</li>
+          <li>✧♪ — The Adams</li>
+          <li>✧♪ — Lomba Sihir</li>
+          <li>✧♪ — .Feast</li>
+          <li>✧♪ — Hindia</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="lace-divider"></div>
+
+    <!-- RUNDOWN -->
+
+    <section class="rundown">
+      <h1>Rundown of Event</h1>
+
+      <div class="arch">
+        <img src="image/pita.png" class="pita" />
+        <img src="image/rundown.png" class="arch-bow" />
+      </div>
+    </section>
+
+    <div class="lace-divider"></div>
+
+    <section class="rsvp-section">
+      <p class="rsvp-text">
+        So that I can prepare for the event well, please help me fill out the
+        available RSVP. Your presence would mean a lot and be an important part
+        of the day's happiness.
+      </p>
+
+      <div class="rsvp-box">
+        <form id="rsvpForm">
+          <h3>Your Full Name</h3>
+          <input type="text" name="fullname" required />
+
+          <h3>Email</h3>
+          <input type="email" name="email" required />
+
+          <h3>Presence</h3>
+          <select name="presence" required>
+            <option value="" disabled selected hidden></option>
+            <option value="Will attend">Will attend</option>
+            <option value="Unable to attend">Unable to attend</option>
+          </select>
+
+          <h3>Number of Guests</h3>
+          <select name="guests" required>
+            <option value="" disabled selected hidden></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+
+          <h3>Messages (Optional)</h3>
+          <textarea name="messages"></textarea>
+
+          <button class="send-btn">Send</button>
+        </form>
+
+        <img src="image/closing.png" class="love" />
+
+        <p class="text">
+          Thank you for confirming your attendance. Your presence will be an
+          important part of this joyful moment.
+        </p>
+      </div>
+    </section>
+
+    <script src="JS/invitation.js"></script>
+    
+  </body>
+</html>

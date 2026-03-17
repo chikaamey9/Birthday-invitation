@@ -1,0 +1,390 @@
+@import url(https://fonts.googleapis.com/css2?family=Carattere&family=DM+Serif+Display:ital@0;1&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eadba8;
+  color: #537aaf;
+}
+
+/* LACE */
+
+.lace-top {
+  height: 100px;
+  background: url(../image/border2.png) repeat-x;
+}
+
+.lace-divider {
+  height: 100px;
+  margin-top: 80px;
+  background: url(../image/border2.png) repeat-x;
+}
+
+/* OPENING */
+
+.opening {
+  width: 1200px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 60px;
+  border-radius: 14px;
+  margin-top: 60px;
+}
+
+.title {
+  font-family: "Carattere", cursive;
+  font-weight: normal;
+  color: #537aaf;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title span {
+  font-size: 48px;
+}
+
+.opening-container {
+  display: flex;
+  gap: 40px;
+}
+
+/* PHOTO */
+
+.photo-card {
+  background: #FFFEF2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.photo {
+  width: 260px;
+  border-radius: 10px;
+}
+
+.bow-top {
+  position: absolute;
+  top: -20px;
+  right: -45px;
+  width: 140px;
+}
+
+.bow-bottom {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+}
+
+/* LETTER */
+
+.letter {
+  flex: 1;
+  background-color: #fffef2;
+  border: 1px solid #537aaf;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.letter h2 {
+  font-family: "Carattere", cursive;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.letter h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.letter p {
+  font-family: "DM Serif Display", serif;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+/* DETAILS */
+
+.details-wrapper {
+  width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  gap: 40px;
+}
+
+.details-card {
+  flex: 1;
+  background: rgba(255, 254, 242, 0.8);
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid #537aaf;
+  text-align: center;
+  min-height: 720px;
+}
+
+.details-card h2 {
+  font-family: "Carattere", cursive;
+  font-weight: normal;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.label {
+  font-family: "DM Serif Display", serif;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.value {
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px;
+}
+
+.beach {
+  width: 70%;
+  margin: 25px auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.color-box {
+  background: #537aaf;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.star {
+  width: 70px;
+  height: 70px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.blue {
+  background: #ddf3ff;
+}
+
+.white {
+  background: #ffffff;
+}
+
+.yellow {
+  background: #f8ecba;
+}
+
+.performance-card {
+  flex: 1;
+  background: rgba(255, 254, 242, 0.8);
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid #537aaf;
+  text-align: center;
+  height: 620px;
+  position: relative;
+  padding-bottom: 250px;
+}
+
+.performance-card::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -330px;
+
+  width: 480px;
+  height: 230px;
+
+  background-image: url("../image/iuphoto.jpg"); 
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 10px;
+  box-shadow: 8px 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+.performance-card h2 {
+  font-family: "Carattere", cursive;
+  font-size: 42px;
+  font-weight: normal;
+  margin-bottom: 80px;
+}
+
+.performance-card ul li {
+  font-family: "DM Serif Display", serif;
+  list-style: none;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* RUNDOWN */
+
+.rundown {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.rundown h1 {
+  font-family: "Carattere", cursive;
+  font-weight: normal;
+  font-size: 70px;
+  letter-spacing: 7px;
+  margin-bottom: 150px;
+}
+
+.pita {
+  width: 24%;
+  margin-top: -50px;
+}
+
+.arch {
+  width: 800px;
+  height: 2610px;
+  background: #fffef2;
+  margin: auto;
+  border-radius: 400px 400px 0 0;
+  border: 1px solid #537aaf;
+  position: relative;
+}
+
+.arch-bow {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+
+/* RSVP */
+
+.rsvp-section {
+  width: 850px;
+  margin: 30px auto;
+}
+
+.rsvp-text {
+  text-align: center;
+  color: #537aaf;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  width: 625px;
+}
+
+.rsvp-box {
+  background: #fffef2;
+  border: 1px solid #537aaf;
+  border-radius: 10px;
+  padding: 50px;
+  position: relative;
+}
+
+.rsvp-box form {
+  width: 50%;
+}
+
+.rsvp-box h3 {
+  color: #537aaf;
+  margin-top: 10px;
+}
+
+.rsvp-box input,
+.rsvp-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 20px 0;
+  border: 1px solid #537aaf;
+  border-radius: 5px;
+  background: rgba(83, 122, 175, 0.4);
+}
+
+.rsvp-box select {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  border: 1px solid #537aaf;
+  border-radius: 5px;
+  background-color: rgba(83, 122, 175, 0.4);
+  outline: none;
+  font-size: 14px;
+
+  /* Hilangkan arrow default */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* Custom arrow */
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23537AAF' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.rsvp-box textarea {
+  height: 80px;
+  resize: none;
+}
+
+.rsvp-box select:focus {
+  background-color: rgba(248, 236, 186, 0.6);
+}
+
+.send-btn {
+  font-family: "DM Serif Display", serif;
+  font-size: 15px;
+  background: #537aaf;
+  color: #f8ecba;
+  border: none;
+  width: 50%;
+  margin-left: 80px;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.love {
+  position: absolute;
+  right: 80px;
+  bottom: 235px;
+  width: 260px;
+}
+
+.text {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  width: 55%;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 150px;
+}
